@@ -1,0 +1,33 @@
+       body {
+        text-indent:140px;
+       }
+       .btn{
+                 font-size: smaller;
+        } 
+        .dist{padding-top:120px }
+        
+        .col{
+            height: 160px;
+            padding-bottom: 20px
+        }
+        #first{
+          width: px;
+            background-color:#1B9DFF; 
+            text-indent: 140px
+        }
+      .wrap {
+  width: auto;
+ 
+}  
+#container{
+   width: 700%;
+
+}
+h6 h2 {
+  text-align: center;
+}
+  footer {
+    background-color: #1A9DFF;
+
+  }      
+ 

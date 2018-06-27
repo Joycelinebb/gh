@@ -1,0 +1,11 @@
+.container {
+	width: 1000px;
+	border-width: 40px;
+	background-position: center;
+	border: solid 3px;
+}
+h1 h2 h3 h4 {
+	text-decoration: underline;
+	background-color: gray;
+
+	}

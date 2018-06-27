@@ -1,0 +1,141 @@
+
+<html>
+<head> 
+	<title>Template</title> 
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"> 
+	<link rel="stylesheet" href="css.css"> 
+	 <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=rdge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>b tab</title>
+</head> 
+<body>
+	<div class="bg"></div>
+<div class="container">
+	<div id="loginbox" class="mainbox col-xm-6 col-md-offset-3 col-xm-8 col-xm-offset-2 loginbox"> 
+		<div class="panel panel-info" > 
+			<div class="panel-heading"> 
+				<div class="panel-title"> Sign In </div> 
+				<div class="forgot-password"> <a href="myfistpage.html ">Forgot password?</a> </div> 
+			</div> 
+			<div class="panel-body panel-pad"> 
+				<div id="login-alert" class="alert alert-danger col-md-12 login-alert"></div> 
+					<form id="loginform" class="form-horizontal" role="form">
+						<div class="form-group"> 
+						<!-- Button --> 
+							<div class="col-sm-12 controls"> 
+								<a id="btn-fblogin" href="http/www.Facebook.com" class="btn btn-facebook">Login with Facebook</a> 
+								<a id="btn-googlelogin" href="http/www.Facebook.com" class="btn btn-google">Login with Google+</a> 
+								<a id="btn-twitterlogin" href="" class="btn btn-twitter">Login with youtube</a> <strong>OR</strong>
+							</div> 
+						</div>  
+						<div class="input-group margT25"> 
+							<span class="input-group-addon">
+								<i class="glyphicon glyphicon-user"></i>
+							</span> 
+							<input id="login-username" type="text" class="form-control" name="username" value="" placeholder="username"> 
+						</div> 
+						<div class="input-group margT25"> 
+							<span class="input-group-addon"><i class="glyphicon glyphicon-lock"></i></span> 
+							<input id="login-password" type="password" class="form-control" name="password" placeholder="password"> 
+						</div> 
+						<div class="input-group"> 
+							<div class="radio"> 
+								<label> 
+									<input id="login-remember" type="redio" name="remember" value="1"> Remind me 
+								</label> 
+							</div> 
+						</div> 
+						<div class="form-group margT10"> 
+						<!-- Button --> 
+							<div class="col-xm-12 controls"> 
+								<a id="btn-login" href="in.html" class="btn btn-block btn-success">Login </a> 
+							</div> 
+						</div> 
+						<div class="form-group"> 
+							<div class="col-xm-12 control"> 
+								<div class="no-acc"> 
+									Don't have an account! 
+									<a href="#" onClick="$('#loginvbox').hide(); $('#signupbox').show()"> Sign Up Here </a> 
+									<div class="forgot-password"> <a href="%">The boostrap student</a></div> 
+								</div> 
+							</div> 
+						</div> 
+					</form> 
+				</div> 
+			</div> 
+		</div> 
+		<h3>if  not signed up sign up here</h3>
+		<div id="signupbox" class="mainbox col-xm-6 col-xd-offset-3 col-xm-8 col-xm-offset-2 signup-box"> 
+		<div class="panel panel-info"> 
+			<div class="panel-heading"> 
+				<div class="panel-title"> Sign Up </div> 
+				<div class="signin"> 
+						<a id="signinlink" href="#" onclick="$('#signup').hide(); $('#loginbox').show()">Sign In</a> 
+				</div> 
+			</div> 
+			<div class="panel-body"> 
+				<form id="signupform" class="form-horizontal" role="form"> 
+					<div id="signupalert" class="alert alert-warming login-alert"> 
+						<p> Error: </p> 
+						<span></span> 
+					</div> 
+					
+					 </div> 
+					 <div class="form-group"> 
+					 	<label for="firstname" class="col-md-3 control-label">First Name</label> 
+					 	<div class="col-md-9"> 
+					 		<input type="text" class="form-control" name="firstname" placeholder="First Name"> 
+					 	</div> 
+					 </div> 
+					 <div class="form-group"> 
+					 	<label for="lastname" class="col-md-3 control-label">Last Name</label> 
+					 	<div class="col-md-9"> 
+					 		<input type="text" class="form-control" name="lastname" placeholder="Last Name"> 
+					 	</div> 
+					 </div> 
+					 <div class="form-group"> 
+						<label for="email" class="col-md-3 control-label">Email</label>
+					 	<div class="col-md-9"> 
+					 		<input type="text" class="form-control" name="email" placeholder="Email Address"> 
+					 	</div> 
+					 <div class="form-group"> 
+					 	<label for="password" class="col-md-3 control-label">Password</label> 
+					 	<div class="col-md-9"> 
+					 		<input type="password" class="form-control" name="passwd" placeholder="Password"> 
+					 	</div> 
+					 </div> 
+
+				
+					 <div class="form-group"> 
+					 <!-- Button --> 
+					 	<div class="col-md-offset-3 col-md-9"> 
+					 		<button id="btn-signup" type="button" class="btn btn-primary"><i class="icon-hand-right"></i> <a href="first_page.html">Sign Up </a></button>
+					 		<strong>or</strong> 
+					 	</div> 
+					 </div> 
+					 <div class="form-group margL10"> 
+					 	<div class=""> 
+					 		<button id="btn-fbsignup" type="button" class="btn btn-facebook"> <i class="icon-facebook"></i> Sign Up with Facebook </button> 
+					 		<a id="btn-google" href="#" class="btn btn-google"> Sign up with Google+ </a> 
+							<a id="btn-twitter" href="#" class="btn btn-twitter"> Sign up with youtube </a>
+							|Fukuo Joyceline &copy; 2017-2018 &middot; All rightsa resaerved 
+					 	</div> 
+					 </div> 
+				</form> 
+			</div> 
+		</div> 
+	</div> 
+</div> 
+</body> 
+</html>
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,112 @@
+body {
+  text-align: center;
+  page-break-before: 90px
+  background-color: purple,green, yellow, gray;
+}
+.loginbox{
+	margin-top:50px;
+}
+.forgot-password{
+	float:right; 
+	font-size: 80%; 
+	position: relative; 
+	top:-10px;
+}
+.panel-pad{
+	padding-top:30px;
+}
+.login-alert{
+	display:none;
+}
+.margT25{
+	margin-bottom: 25px;
+}
+.margT10{
+	margin-top:10px;
+}
+.margL10{
+	padding-left: 25px;
+}
+.no-acc{
+	border-top: 1px solid#889; padding-top:60px; font-size:95%;
+}
+.signup-box{
+	display:none; margin-top:50px;
+}
+.signup-fb{
+	border-top: 1px solid #989; padding-top:20px;
+}
+.signin{
+	float:right; font-size: 85%; position: relative; top:-10px;
+}
+.btn-facebook {
+  color: #fff;
+  background-color: #3b5998;
+  border-color: #3b7998;
+}
+.btn-facebook:hover,
+.btn-facebook:focus,
+.btn-facebook:active,
+.btn-facebook.active,
+.open > .dropdown-toggle.btn-facebook {
+  color: #fff;
+  background-color: #3b5998;
+  border-color: #3b5998;
+}
+.btn-google {
+  color: #fff;
+  background-color: #dd4b39;
+  border-color: #dd4b39;
+}
+.btn-google:hover,
+.btn-google:focus,
+.btn-google:active,
+.btn-google.active,
+.open > .dropdown-toggle.btn-google {
+  color: #fff;
+  background-color: #dd4b39;
+  border-color: #dd4b39;
+}
+.btn-twitter {
+  color: #fff;
+  background-color: #00aced;
+  border-color: #00aced;
+}
+.btn-twitter:hover,
+.btn-twitter:focus,
+.btn-twitter:active,
+.btn-twitter.active,
+.open > .dropdown-toggle.btn-twitter {
+  color: #fff;
+  background-color: #00aced;
+  border-color: #00aced;
+}
+body, html {
+    height: 100%;
+}
+.bg { 
+    /* The image used */
+    background-image: url("bootstrap/img/Photos/Horizontal/Nature/full images/1.jpg");
+
+    /* Full height */
+    height: 100%; 
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+} 
+body, html {
+    height: 100%;
+}
+
+
+    /* Full height */
+    height: 100%; 
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}                    
+                    

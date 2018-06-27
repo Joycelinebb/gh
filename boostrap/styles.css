@@ -1,0 +1,45 @@
+
+* {
+	margin: 3px;
+	padding: 40px;
+
+}
+body {
+	font-size: 18px;
+	font-family: geogia,times,serif;
+	background: #f2f2f2;
+}
+h1,h2,h3,h4 {
+	font-family: helvetica,arial,sans-serif,  
+}
+#container {
+	width: 940px;
+	margin: 0 auto;
+
+}
+header {
+	text-align: center;
+	background: #fff;
+	color: #1a71b8;
+ul {
+	padding: 10px;
+	margin: 28px;
+	padding: 20px;
+	background: white;
+}
+div p {
+div {
+	margin: 0 0 1em;
+}
+footer{
+	text-align: center;
+	color: #aaa;
+	font-size: 14px;
+	border-top: solid 1px #eee;
+	margin: 28px 0 0;
+}
+nav {
+	background-color: purple;
+	text-align: center;
+}
+

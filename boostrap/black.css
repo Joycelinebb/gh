@@ -1,0 +1,24 @@
+.navbar {
+  min-height: 80px;
+  vertical-align: middle;
+}
+
+.navbar-collapse .collapse .in {
+    padding-top:80px;
+}
+form{
+	text-align: center;
+}
+.content{
+	vertical-align: middle;
+	min-height: 80px;
+}
+
+}
+footer {
+	 text-align: center;
+	 width: 10200px;
+}
+img {
+    border-radius: 50%;
+}
